@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1 h2 h3 h4 h5 h6 p {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+
+    position: relative;
+    background-image: url(../images/shape.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+
+.btn_icon {
+    display: flex;
+    border: 1px solid white;
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 10px 16px !important;
+    color: #fff;
+    margin-left: 20px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+.btn_icon:hover{
+    background-color: #fff;
+    color: #0c63b2;
+}
+
+.icon {
+    margin-right: 12px;
+}
+
+.nav-link {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    margin-left: 20px
+
+}
+
+.ms-auto {
+    margin-left:auto!important;
+}
+
+
+
+.img{
+    width: 43%;
+    right: 10%;
+    bottom: 0;
+    position: absolute;
+}
+
+.img img {
+    width: 100%;
+}
+
+
+.btn_free {
+   
+    font-size: 18px;
+    color: #fff;
+    background: #0c63b2;
+    display: inline-flex;
+    padding: 19px 35px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn_free i {
+    margin-left: 12px;
+}
+
+.live{
+    
+}
+
+.live_content{
+    top: 30%;
+    left: 10%;
+    position: absolute;
+}
+
+.live p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #242424;
+    margin: 20px 0 36px;
+}
+
+
+.live h1 {
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+.live h2{
+    font-weight: 500;
+    font-size: 52px;
+    color: #242424;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.live span{
+    color: #0c63b2;
+}
+
+.feature_section{
+    position: relative;
+    display: flex;
+}
+
+
+.feature-img{
+  
+    position: absolute;
+
+}
+
+.imgbox{
+    height: 50%;
+    width: 50%;
+    position: absolute;
+}
+
+.feature-content {
+   
+ position: absolute;
+ text-align: right;
+ top: 15%;
+   
+
+}
+
+.feature-content h1{
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+.feature-content h2{
+    font-weight: 500;
+    font-size: 52px;
+    color: #242424;
+    font-family: 'Poppins', sans-serif;
+
+}
+    
+.feature-content span{
+    color: #0c63b2;
+}
+
+.feature-content p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #242424;
+    margin: 20px 0 36px;
+}
+
